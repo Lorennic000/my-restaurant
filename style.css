@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: grey;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    align-items: left;
+    padding: 1rem;
+}
+h2, h3, h4, h5, h6, p{
+    font-family: "Montserrat", sans-serif;
+}
+.title {
+    font-family: "Pirata One", sans-serif;
+    font-size: 60px;
+    padding: 1rem;
+    margin-right: auto;
+    color: #ffffff;
+}
+main {
+    background-color: var(--middle-color);
+}
+.flex-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--darkest-color);
+    padding: 1rem;
+}
+a{
+    color: var(--middle-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+.button{
+    background-color: #FF0000;
+    color: #FFFFFF:
+    padding: 10px 20px;
+    border-radius: 5px:
+
+}
+button{
+    /*edit text below*/
+    font-size:1.5rem;
+    text-align: bottom;
+}
+.button:hover{
+    color: #FFFFFF;
+}
+.hero {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/02/22/24/pizza-2810589_1280.jpg);
+    background-color: var(--brighter-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-width: 130vh;
+    min-height: 80vh;
+    flex-direction: column;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --darkest-color: #092E14;
+    --darker-color: #315538;
+    --middle-color: #597F5F;
+    --brighter-color: #83AB89;
+    --brightest-color: #B0D9B6
+}
+footer{
+    text-align: center;
+    background-color: var(--darkest-color);
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none
+}
+hr {
+    height: 3px;
+    background-color: black;
+    border-color: black;
+}
+.section{
+    background-color: grey;
+}
+.pizzasection1 {
+    text-align: left;
+    padding: 1.5rem;
+    background-color: grey;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+}
+.pizzasection2 {
+    text-align: right;
+    line-height: 1.75;
+    padding: 1.5rem;
+    background-color: grey;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+}
+.mainpizzasection{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.pizzasection3 {
+    text-align: center;
+    padding: 1rem;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+.maintext{
+    padding: 1.5rem;
+    line-height: 1.75;
+}
+.imagespace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.75rem;
+
+}
+.aboutflex{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+ /* basic css reset */
+ *, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0;}
+img {
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
